@@ -24,3 +24,43 @@
     background-color: #28352F;
     display: block;
 }
+.welcome{
+    background-color: white;
+    color: #28352F;
+    background-image: url(img/header-illsutration-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hello{
+color: #172B4D;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+margin-top: 60px;
+
+}
+.detail{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: #36B37F;
+}
+.intro{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400px;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #172B4D;
+}
