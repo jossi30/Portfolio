@@ -71,9 +71,9 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href=#>HTML</a>
-    <a href=#>CSS</a>
-    <a href="https://reactjs.org/">React.js</a></li>
+    <li><a href=#>HTML</a></li>
+    <li><a href=#>CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
