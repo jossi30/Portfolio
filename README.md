@@ -57,17 +57,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [My Portfolio: jossi30] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> hello I'm Yosief, I'M a software developer.
 
-**[your_project__name]** is a...
+**[My Portfolio: jossi30]** is a page to show you my recent works and skills.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> HTML CSS
 
 <details>
   <summary>Client</summary>
@@ -96,9 +96,8 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[made with use of github workflow]**
+- **[made with use of linter checkers ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,7 +205,7 @@ Example:
 
 - GitHub: [@jossi30](https://github.com/jossi30)
 - Twitter: [@jossi30](https://twitter.com/jossi30_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yosief-g-hailay-290277213/)
+- LinkedIn: [Yosief G. Hailay](https://www.linkedin.com/in/yosief-g-hailay-290277213/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
