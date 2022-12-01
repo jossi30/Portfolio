@@ -67,11 +67,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML  CSS
 
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href=#>HTML</a><li>
+    <li><a href=#>CSS</a><li>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
@@ -94,10 +95,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[made with use of github workflow]**
-- **[made with use of linter checkers ]**
+- **made with use of github workflow**
+- **made with use of linter checkers**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
