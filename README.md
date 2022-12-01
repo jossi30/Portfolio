@@ -57,17 +57,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My Portfolio: jossi30] <a name="about-project"></a>
+# 📖 My Portfolio: jossi30 <a name="about-project"></a>
 
 > hello I'm Yosief, I'M a software developer.
 
-**[My Portfolio: jossi30]** is a page to show you my recent works and skills.
+**My Portfolio: jossi30** is a page to show you my recent works and skills.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML CSS
+> HTML  CSS
 
 <details>
   <summary>Client</summary>
