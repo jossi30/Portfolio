@@ -1,66 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-.header-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    color: #28352F;
-    align-items: center;
-}
-.logo{
-    padding-left: 20px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px
-}
-.humberger{
-    padding-right: 20px;
-}
-.bar{
-    width: 25px;
-    height: 3px;
-    margin: 5px;
-    background-color: #28352F;
-    display: block;
-}
-.welcome{
-    background-color: white;
-    color: #28352F;
-    background-image: url(img/header-illsutration-mobile.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 590px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.hello{
-color: #172B4D;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-text-align: center;
-margin-top: 60px;
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: #28352f;
+  align-items: center;
 }
-.detail{
-    font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-text-align: center;
-color: #36B37F;
+
+.logo {
+  padding-left: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
 }
-.intro{
-    font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 400px;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #172B4D;
+
+.humberger {
+  padding-right: 20px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #28352f;
+  display: block;
+}    
+
+.welcome {
+  background-color: white;
+  color: #28352f;
+  background-image: url(img/header-illsutration-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 590px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hello {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.detail {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #36b37f;
+}
+
+.intro {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+.icon-links{
+   display: flex;
+    list-style: none;
+    align-items: center; 
+    margin-right: 45px;
+    margin-top: 35px; 
+    
+ 
+}
+.icons{
+    margin: 10px;
+    width: 30px;
+height: 23px;
+}
+.arrow{
+    outline: none;
+    border: none;
+    background: none;
 }
