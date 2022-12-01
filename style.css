@@ -27,7 +27,7 @@
   margin: 5px;
   background-color: #28352f;
   display: block;
-}    
+}
 
 .welcome {
   background-color: white;
@@ -71,22 +71,23 @@
   text-align: center;
   color: #172b4d;
 }
-.icon-links{
-   display: flex;
-    list-style: none;
-    align-items: center; 
-    margin-right: 45px;
-    margin-top: 35px; 
-    
- 
+
+.icon-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 45px;
+  margin-top: 35px;
 }
-.icons{
-    margin: 10px;
-    width: 30px;
-height: 23px;
+
+.icons {
+  margin: 10px;
+  width: 30px;
+  height: 23px;
 }
-.arrow{
-    outline: none;
-    border: none;
-    background: none;
+
+.arrow {
+  outline: none;
+  border: none;
+  background: none;
 }
