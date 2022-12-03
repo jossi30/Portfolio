@@ -97,9 +97,10 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   color: #172b4d;
+  text-align: center;
 }
 
 .bottom-line {
@@ -130,10 +131,11 @@
 
 .pr-name {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 32px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  color: #3a4a42;
 }
 
 .tech {
@@ -175,6 +177,13 @@
   margin-top: 20px;
 }
 
+.see-btn:hover {
+  background: #008552;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+}
+
 .abt {
   margin-top: 40px;
   margin-left: 90px;
@@ -211,6 +220,25 @@
   font-size: 17px;
   margin-left: 100px;
   margin-top: 20px;
+}
+
+.see-btn:focus {
+  background: #008552;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.see-btn1:hover {
+  background: #008552;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+}
+
+.see-btn1:focus {
+  background: #008552;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .about {
