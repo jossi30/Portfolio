@@ -314,6 +314,7 @@ button:hover {
   font-size: 2em;
   font-weight: bold;
   color: #172b4d;
+  font-family: "Inter", sans-serif;
 }
 
 .sub-container-form form {
@@ -344,9 +345,6 @@ button:hover {
   margin-bottom: 1em;
 }
 
-.input-name {
-  display: none;
-}
 
 .container-form textarea {
   border: 1px solid #d0d9d4;
@@ -533,26 +531,14 @@ button:hover {
   }
 
   .sub-container-form #Full-name {
-    display: none;
-  }
-
-  .container-form #First-Name {
+    width: 41.75em;
     border: 1px solid #d0d9d4;
-    width: 19.3em;
-    padding: 1em;
-    margin-right: 0.9em;
-    border-radius: 0.5em;
     margin-bottom: 1em;
-  }
-
-  .container-form #Last-Name {
-    border: 1px solid #d0d9d4;
-    width: 19.3em;
     padding: 1em;
     border-radius: 0.5em;
-    margin-bottom: 1em;
   }
 
+  
   .container-form input[type=email] {
     width: 41.75em;
     border: 1px solid #d0d9d4;
