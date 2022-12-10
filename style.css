@@ -345,7 +345,6 @@ button:hover {
   margin-bottom: 1em;
 }
 
-
 .container-form textarea {
   border: 1px solid #d0d9d4;
   width: 20.43em;
@@ -538,7 +537,7 @@ button:hover {
     border-radius: 0.5em;
   }
 
-  
+
   .container-form input[type=email] {
     width: 41.75em;
     border: 1px solid #d0d9d4;
