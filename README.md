@@ -21,7 +21,7 @@ REQUIRED SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-  <h3><b>My Portfolio: Yosief G. Hailay</b></h3>
+  <h3><b>My Portfolio: jossi30</b></h3>
 
 </div>
 
