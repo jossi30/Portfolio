@@ -102,9 +102,6 @@ After you're finished please remove all the comments and instructions!
 - [Live Demo Link](https://jossi30.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
