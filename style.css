@@ -113,7 +113,6 @@ body {
 }
 
 .work .container {
-  width: 20.43em;
   display: grid;
   grid-template-columns: auto auto;
   border: 1px solid #d0d9d4;
