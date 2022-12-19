@@ -1,12 +1,10 @@
-let BarMenu = document.querySelector(".header-nav");
-let NavMenu = document.querySelector('.navbar-links');
-let NavLogo = document.querySelector('.logo');
-
-let humberger = document.querySelector('.humberger');
-humberger.addEventListener('click',addMenuItems);
-
-function addMenuItems(){
-  BarMenu.classList.replace('header-nav','header-nav-expand')
-  NavMenu.classList.replace('navbar-links','navbar-links-visible'); 
-  NavLogo.classList.replace('logo','logo-invisible');
+function myFunction() {
+  const x = document.querySelector('.mobile-menu');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
 }
+
+myFunction();

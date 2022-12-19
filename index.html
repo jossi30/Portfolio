@@ -9,10 +9,29 @@
 </head>
 <body>
     <body>
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="menu-cross">
+              <img
+                onclick="myFunction()"
+                class="cross-btn"
+                src="img/Icon-Cancel.svg"
+                alt="close"
+              />
+            </div>
+        
+            <ul class="mobile-menu-items">
+              <li>
+                <a onclick="myFunction()" href="#">Portoflio</a>
+              </li>
+              <li><a onclick="myFunction()" href="#">About</a></li>
+              <li><a onclick="myFunction()" href="#">Contact</a></li>
+            </ul>
+          </div>
+        
         <header class="container">
            <nav class="header-nav">
                <div class="logo">jossi30</div>
-               <div class="humberger">
+               <div class="humberger" onclick="myFunction()" >
                    <span class="bar"></span>
                    <span class="bar"></span>
                    <span class="bar"></span>

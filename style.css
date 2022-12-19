@@ -17,6 +17,46 @@ body {
   flex-direction: column-reverse;
   height: 100vh;
 }
+.mobile-menu {
+  background-image: url(img/Overlay.png);
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  position: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.mobile-menu > ul {
+  margin-top: -10px;
+  list-style-type: none;
+}
+
+.mobile-menu-items > li > a {
+  color: #3A4A42;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.menu-cross {
+  margin-top: 8px;
+  margin-right: 45px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul li {
+  list-style: none;
+}
+
+.mobile-menu-items > li {
+  padding: 10px 10px;
+}
+
 
 .logo {
   padding-left: 20px;
