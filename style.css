@@ -29,6 +29,17 @@ body {
 .humberger {
   padding-right: 20px;
 }
+.humberger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.humberger.active .bar:nth-child(1){
+ transform: translateY(8px) rotate(45deg);
+ transition: 0.5s;
+}
+.humberger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+  transition: 0.5s;
+}
 
 .bar {
   width: 25px;
