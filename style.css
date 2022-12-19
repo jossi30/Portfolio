@@ -13,6 +13,11 @@ body {
   align-items: center;
 }
 
+.header-nav-expand{
+  flex-direction: column-reverse;
+  height: 100vh;
+}
+
 .logo {
   padding-left: 20px;
   font-family: "Inter", sans-serif;
@@ -22,12 +27,21 @@ body {
   line-height: 28px;
 }
 
+.logo-invisible{
+  display: none;
+}
+
 .navbar-links {
   display: none;
 }
 
+.navbar-links-visible{
+  display: block;
+}
+
 .humberger {
   padding-right: 20px;
+  float: right;
 }
 .humberger.active .bar:nth-child(2){
   opacity: 0;
@@ -40,7 +54,6 @@ body {
   transform: translateY(-8px) rotate(-45deg);
   transition: 0.5s;
 }
-
 
 .bar {
   width: 25px;
