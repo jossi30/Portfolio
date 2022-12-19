@@ -13,19 +13,18 @@ body {
   align-items: center;
 }
 
-.header-nav-expand{
+.header-nav-expand {
   flex-direction: column-reverse;
   height: 100vh;
 }
+
 .mobile-menu {
   background-image: url(img/Overlay.png);
   height: 100%;
   width: 100%;
   z-index: 9;
   position: fixed;
-  background-position: cover;
   background-repeat: no-repeat;
-  
 }
 
 .mobile-menu > ul {
@@ -34,7 +33,7 @@ body {
 }
 
 .mobile-menu-items > li > a {
-  color: #3A4A42;
+  color: #3a4a42;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -44,7 +43,7 @@ body {
 
 .menu-cross {
   margin-top: 8px;
-  margin-right: 45px;
+  margin-right: 55px;
   display: flex;
   justify-content: flex-end;
 }
@@ -57,7 +56,6 @@ ul li {
   padding: 10px 10px;
 }
 
-
 .logo {
   padding-left: 20px;
   font-family: "Inter", sans-serif;
@@ -67,7 +65,7 @@ ul li {
   line-height: 28px;
 }
 
-.logo-invisible{
+.logo-invisible {
   display: none;
 }
 
@@ -75,24 +73,13 @@ ul li {
   display: none;
 }
 
-.navbar-links-visible{
+.navbar-links-visible {
   display: block;
 }
 
 .humberger {
   padding-right: 20px;
   float: right;
-}
-.humberger.active .bar:nth-child(2){
-  opacity: 0;
-}
-.humberger.active .bar:nth-child(1){
- transform: translateY(8px) rotate(45deg);
- transition: 0.5s;
-}
-.humberger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
-  transition: 0.5s;
 }
 
 .bar {
@@ -139,7 +126,7 @@ ul li {
 .intro {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -578,7 +565,7 @@ button:hover {
     border-bottom: 2px solid #dfe1e6;
     background-image: url(img/Frame-1.png);
     background-repeat: no-repeat;
-    background-position: middle bottom;
+    background-position: left;
   }
 
   .sub-container-form form {
