@@ -25,6 +25,7 @@ body {
   z-index: 9;
   position: fixed;
   background-repeat: no-repeat;
+  display: none;
 }
 
 .mobile-menu > ul {
@@ -360,7 +361,7 @@ button:hover {
 }
 
 .container-form p {
-  margin: 2em 1em 2em;
+  margin: 0 auto;
   text-align: center;
   font-size: 2em;
   font-weight: bold;
@@ -625,4 +626,14 @@ button:hover {
     background-repeat: no-repeat;
     background-position: right;
   }
+}
+
+/*new*/
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none !important;
 }

@@ -81,6 +81,7 @@
             
             
             <section>
+            <div class="popup-container"></div>
               <div class="work">
                   <h2>My Recent Works</h2>
                   <img id="img1" src="img/Indicator.svg" alt="">
@@ -94,7 +95,7 @@
                                   <li>JavScript</li>
                                   <li>html</li>
                               </ul>
-                              <button type="submit" href="#">See Project</button>
+                              <button type="submit" href="#" onclick="createPopup()">See Project</button>
                           </div>
                       </div>
   
@@ -107,7 +108,7 @@
                                   <li>JavScript</li>
                                   <li>html</li>
                               </ul>
-                              <button type="submit" href="#">See Project</button>
+                              <button type="submit" href="#" onclick="createPopup()">See Project</button>
                           </div>
                       </div>
   
@@ -120,7 +121,7 @@
                                   <li>JavScript</li>
                                   <li>html</li>
                               </ul>
-                              <button type="submit" href="#">See Project</button>
+                              <button type="submit" href="#" onclick="createPopup()">See Project</button>
                           </div>
                       </div>
   
@@ -133,7 +134,7 @@
                                   <li>JavScript</li>
                                   <li>html</li>
                               </ul>
-                              <button type="submit" href="#">See Project</a>
+                              <button type="submit" href="#" onclick="createPopup()">See Project</a>
                           </div>
                       </div>
   
@@ -146,7 +147,7 @@
                                   <li>JavScript</li>
                                   <li>html</li>
                               </ul>
-                              <button type="submit" href="#">See Project</button>
+                              <button type="submit" href="#" onclick="createPopup()">See Project</button>
                           </div>
                       </div>
   
@@ -159,7 +160,7 @@
                                   <li>JavScript</li>
                                   <li>html</li>
                               </ul>
-                              <button type="submit" href="#">See Project</button>
+                              <button type="submit" href="#" onclick="createPopup()">See Project</button>
                           </div>
                       </div>
                   </div>
@@ -257,10 +258,36 @@
 
         </footer>
 
+        <!--  -->
+    <section class="popup-section invisible" id="pop-up">
+        <div class="popup-container">
+          <div class="popup-content">
+            <div class="popup-image">
+              <div class="times" onclick="toggle()">&times;</div>
+              <img src="img/Snapshoot Portfolio.png" alt="" class="img">
+            </div>
+            <div class="popup-title">
+              <h2 class="about-heading modal-heading">
+              </h2>
+            </div>
+            <ul class="popup-list">
+            </ul>
+            <div class="popup-paragraph">
+              <p class="popup-p">
+              </p>
+            </div>
+            <div class="btn">
+              <a href="" class="f-icon-1">See Live <i class="fas fa-external-link-alt f-icon"></i></a>
+              <a href="" class="f-icon-2">See Source <i class="fab fa-github f-icon f-icon-2"></i></a>
+            </div>
+          </div>
+        </div>
+
         
 
 
     </section>  
-    <script src="mobile-menu.js"></script>          
+    <script src="mobile-menu.js"></script> 
+    <script src="pop-up.js"></script>           
 </body>
 </html> 
