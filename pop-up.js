@@ -99,4 +99,53 @@ const projects = [
   projectObj.project6,
 ];
 
-function createPopup()
+function createPopup(project){
+  let popupContainer = document.createElement('div');
+  popupContainer.classList.add('popup-container');
+
+  let thumbnail = document.createElement('img');
+  thumbnail.classList.add('proj-thumbnail');
+  thumbnail.src=projectObj[project].image.imageUrl;
+  thumbnail.src=projectObj[project].image.altText;
+
+  let projHeader = document.createElement('h2');
+  projHeader.classList.add('proj-header');
+  projHeader.textContent=projectObj[project].title;
+
+  let techContainer = document.createElement('ul');
+  techContainer.style.display='flex';
+  techContainer.style.flexDirection='column'
+  techContainer.classList.add('tech-container');
+  projectObj[project].technologies.array.forEach(tech => {
+    let techItem = document.createElement('li');
+    techItem.textContent=tech;
+    techItem.classList.add('texh-item');
+    techContainer.appendChild.techItem;
+  });
+
+  let projDescription = document.createElement('p');
+  projDescription.classList.add('proj-description');
+  projDescription.textContent=projectObj[project].description;
+
+  let liveButton = document.createElement('button');
+  liveButton.textContent='See Live';
+  liveButton.classList.add('live-button');
+  liveButton.style.float='left';
+
+  let srcButton = document.createElement('button');
+  srcButton.textContent='See Source';
+  srcButton.classList.add('src-button');
+  srcButton.style.float='right';
+
+  popupContainer.appendChild(thumbnail);
+  popupContainer.appendChild(projHeader);
+  popupContainer.appendChild(techContainer);
+  popupContainer.appendChild(projDescription);
+  popupContainer.appendChild(liveButton);
+  popupContainer.appendChild(srcButton);
+
+  let workSection = document.querySelector('.work');
+  let welcomeSection = document.querySelector('.welcome');
+  welcomeSection.insertBefore(popupContainer,workSection);
+
+}
