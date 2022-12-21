@@ -9,258 +9,145 @@
 </head>
 <body>
     <body>
-        <div id="mobile-menu" class="mobile-menu">
-            <div class="menu-cross">
-              <img
-                onclick="myFunction()"
-                class="cross-btn"
-                src="img/Icon-Cancel.svg"
-                alt="close"
-              />
-            </div>
-        
-            <ul class="mobile-menu-items">
-              <li>
-                <a onclick="myFunction()" href="#home">Portoflio</a>
-              </li>
-              <li><a onclick="myFunction()" href="#about">About</a></li>
-              <li><a onclick="myFunction()" href="#contact">Contact</a></li>
-            </ul>
+        <header class="toolbar">
+          <a href="#" aria-label="logo"><h1>jossi30</h1></a>
+          <img id="ham" src="images/Icon-Menu.svg" alt="">
+          <nav>
+              <img id="exit" src="images/Icon-Cancel.svg" alt="exit">
+              <ul>
+                  <li><a id="Portfolio-nav" href="#Portfolio" aria-label="Portfolio">Portfolio</a></li>
+                  <li><a id="about-nav" href="#about" aria-label="About">About</a></li>
+                  <li><a id="contact-nav" href="#contact" aria-label="contact">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+      <div id="overlay" onclick="off()"></div>
+      
+          <section class="headline">
+              <h1>Hey there. I’m Yosief <span>I’m a software developer</span></h1>
+              <p> can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+               <div class="social-media-icons">
+                  <ul>
+                  <li><a href="https://twitter.com/jossi30_" aria-label="twitter"> <img src="images/twitter.svg" alt=""> </a></li>
+                  <li><a href="https://www.linkedin.com/in/yosief-g-hailay-290277213/" aria-label="Linkedin"> <img src="images/Linkedin icon.svg" alt=""> </a></li>
+                  <li><a href="#" aria-label="medium"> <img src="images/medium.svg" alt=""> </a></li>
+                  <li><a href="https://github.com/jossi30" aria-label="github"> <img src="images/github.svg" alt=""> </a></li>
+                  <li><a href="https://angellist.com/yosief-g-haylay" aria-label="angellist"> <img src="images/angellist.svg" alt=""> </a></li>
+                  </ul>
+              </div>
+              <img id="btn" src="images/Disabled.svg" alt="">
+          </section>
+      </div>
+      <section>
+          <div id="Portfolio" class="work">
+              <h2>My Recent Works</h2>
+              <img id="img10" src="images/Indicator.svg" alt="">
+          </section>
+
+          <section>
+              <div id="about" class="about-me">
+              <div>
+                  <h2>About me</h2>
+                  <div class="about-imgs-desc">
+                      <img id="img-8" src="images-desk/Frame-8.svg" alt="">
+                      <img id="img-9" src="images-desk/Frame-9.svg" alt="">
+                  </div>
+                  <div class="about-imgs">
+                      <img id="img7" src="images/Mask Group.svg" alt="">
+                      <img id="img8" src="images/Frame-about.svg" alt="">
+                  </div>
+                  <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                  <a href="#">Get My Resume</a>
+              </div>
+              <div class="main-container-about">
+                  <div class="container-about">
+                      <div class="a-img">
+                          <img id="img9" src="images/icon-languages.svg" alt="">
+                      </div>
+                      <h3>Languages</h3>
+                      <ul>
+                          <li>JavaScript</li>
+                          <li>Ruby</li>
+                          <li>Html</li>
+                          <li>CSS</li>
+                      </ul>
+                  </div>
+
+                  <div class="container-about">
+                      <div class="a-img">
+                          <img id="img9" src="images/icon-frameworks.svg" alt="">
+                      </div>
+                      <h3>Languages</h3>
+                      <ul>
+                          <li>Bootstrap</li>
+                          <li>Ruby on rails</li>
+                          <li>RSpec</li>
+                          <li>Capybara</li>
+                          <li>Selenium</li>
+                      </ul>
+                  </div>
+
+                  <div class="container-about">
+                      <div class="a-img">
+                          <img id="img9" src="images/icon-skills.svg" alt="">
+                      </div>
+                      <h3>Languages</h3>
+                      <ul>
+                          <li>Codekit</li>
+                          <li>GitHub</li>
+                          <li>Codepen</li>
+                          <li>Gitlab</li>
+                          <li>Terminal</li>
+                      </ul>
+                  </div>
+              </div>
+              </div>
+          </section>
+
+      <footer>
+          <div class="container-form" id="contact">
+              <div class="sub-container-form">
+                  
+                  <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+                      <img id="img-10" src="images-desk/Frame-10.svg" alt="">
+                      <img id="img-11" src="images-desk/Frame-11.svg" alt="">
+                      <img id="img-12" src="images-desk/Frame-12.svg" alt="">
+             
+                      <form action="https://formspree.io/f/mdojqgye" method="post">
+
+                          <input type="text" name="full name" id="Full-name" placeholder="Full name" minlength="1" maxlength="30" required>
+                          <div class="input-name">
+                              <input type="text" name="First Name" id="First-Name" placeholder="First Name" minlength="1" maxlength="30" required>
+                              <input type="text" name="Last Name" id="Last-Name" placeholder="Last Name" minlength="1" maxlength="30" required>
+                          </div>
+                          <input type="email" name="Email address" id="email" placeholder="Email address" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                          <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Enter text here" required></textarea>
+                          <button type="submit">Get in touch</button>
+                          
+                      </form>
+              </div>                    
+              <div class="social-media-icons">
+                  <ul>
+                      <li><a href="https://twitter.com/jossi30_" aria-label="twitter"> <img src="images/twitter.svg" alt=""> </a></li>
+                      <li><a href="https://www.linkedin.com/in/yosief-g-hailay-290277213/" aria-label="Linkedin"> <img src="images/Linkedin icon.svg" alt=""> </a></li>
+                      <li><a href="#" aria-label="medium"> <img src="images/medium.svg" alt=""> </a></li>
+                      <li><a href="https://github.com/jossi30" aria-label="github"> <img src="images/github.svg" alt=""> </a></li>
+                      <li><a href="https://angellist.com/yosief-g-haylay" aria-label="angellist"> <img src="images/angellist.svg" alt=""> </a></li>
+                  </ul>
+              </div>
+              <div class="form-img"><img id="img-13" src="images/Frame-1.svg" alt="">                </div>
+
+              <h3>yosiefghaylay@gmail.com</h3>
+
           </div>
-        
-        <header class="container">
-           <nav class="header-nav">
-               <div class="logo">jossi30</div>
-               <div class="humberger" onclick="myFunction()" >
-                   <span class="bar"></span>
-                   <span class="bar"></span>
-                   <span class="bar"></span>
-               </div>
-               <div class="navbar-links">
-                <ul class="id-links">
-                  <li><a href="#home">Portfolio</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-               </div>
-           </nav>
-          </header> 
-
-    <section class="welcome" id="home">
-            <div class="hello">Hey There. I’m 
-              Yosief</div>
-            <div class="detail">I’m a Software Developer</div>
-            <div class="intro"> I can help you build a product , feature or website Look through some of my work and<br> experience! If you like what you see and have a project you need coded,<br> 
-                don’t hestiate to contact me.</div>
-        
-            <div class="connect-link">
-                <ul class="icon-links">
-                  <li>
-                    <a href="https://twitter.com/jossi30_" target="blank"><img class="icons" src="img/t.svg" alt="twitter"></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/yosief-g-hailay-290277213/" target="blank"><img class="icons" src="img/ln.svg" alt="linkedin"></a>
-                  </li>
-                  <li>
-                    <a href="#" target="blank"> <img class="icons" src="img/m.svg" alt="github"></a>
-                      </li>
-                  <li>
-                    <a href="https://github.com/jossi30" target="blank"> <img class="icons" src="img/g.svg" alt="github"></a>
-                  </li>
-                  <li>
-                    <a href="https://angellist.com/yosief-g-haylay" target="blank"> <img class="icons" src="img/2.svg" alt="angellist"></a>
-                  </li>
-                </ul>
-            </div>
-            
-            <button type="submit" class="arrow">
-                <img src="img/Disabled.png" alt="button1">
-            </button>
-
-            
-            
-            <section>
-              <div class="work">
-                  <h2>My Recent Works</h2>
-                  <img id="img1" src="img/Indicator.svg" alt="">
-                  <div class="main-conrainer">
-                      <div class="container">
-                          <div class="sub-container">
-                              <h3>Multi-Post Stories Gain+Glory</h3>
-                              <ul>
-                                  <li>Ruby on rail</li>
-                                  <li>css</li>
-                                  <li>JavScript</li>
-                                  <li>html</li>
-                              </ul>
-                              <button type="submit" href="#">See Project</button>
-                          </div>
-                      </div>
-  
-                      <div class="container">
-                          <div class="sub-container">
-                              <h3>Multi-Post Stories Gain+Glory</h3>
-                              <ul>
-                                  <li>Ruby on rail</li>
-                                  <li>css</li>
-                                  <li>JavScript</li>
-                                  <li>html</li>
-                              </ul>
-                              <button type="submit" href="#">See Project</button>
-                          </div>
-                      </div>
-  
-                      <div class="container">
-                          <div class="sub-container">
-                              <h3>Multi-Post Stories Gain+Glory</h3>
-                              <ul>
-                                  <li>Ruby on rail</li>
-                                  <li>css</li>
-                                  <li>JavScript</li>
-                                  <li>html</li>
-                              </ul>
-                              <button type="submit" href="#">See Project</button>
-                          </div>
-                      </div>
-  
-                      <div class="container">
-                          <div class="sub-container">
-                              <h3>Multi-Post Stories Gain+Glory</h3>
-                              <ul>
-                                  <li>Ruby on rail</li>
-                                  <li>css</li>
-                                  <li>JavScript</li>
-                                  <li>html</li>
-                              </ul>
-                              <button type="submit" href="#">See Project</a>
-                          </div>
-                      </div>
-  
-                      <div class="container">
-                          <div class="sub-container">
-                              <h3>Multi-Post Stories Gain+Glory</h3>
-                              <ul>
-                                  <li>Ruby on rail</li>
-                                  <li>css</li>
-                                  <li>JavScript</li>
-                                  <li>html</li>
-                              </ul>
-                              <button type="submit" href="#">See Project</button>
-                          </div>
-                      </div>
-  
-                      <div class="container">
-                          <div class="sub-container">
-                              <h3>Multi-Post Stories Gain+Glory</h3>
-                              <ul>
-                                  <li>Ruby on rail</li>
-                                  <li>css</li>
-                                  <li>JavScript</li>
-                                  <li>html</li>
-                              </ul>
-                              <button type="submit" href="#">See Project</button>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-  
-              <section id="about">
-                  <div class="about-me">
-                  <div class="about-me1">
-                      <h2>About me</h2>
-                      <p> I can help you build a product , feature or website Look through some of my work and<span> experience! If you like what you see and have a project you need coded,<span> don’t hestiate to contact me.</p>
-                      <button type="submit" href="#">Get My Resume</button>
-                  </div>
-                  <div class="main-container-about">
-                      <div class="container-about">
-                          <div class="a-img">
-                              <img id="img2" src="img/lang.png" alt="">
-                          </div>
-                          <h3>Languages</h3>
-                          <ul>
-                              <li>JavaScript</li>
-                              <li>Ruby</li>
-                              <li>Html</li>
-                              <li>CSS</li>
-                          </ul>
-                      </div>
-  
-                      <div class="container-about">
-                          <div class="a-img">
-                              <img id="img2" src="img/frame.png" alt="">
-                          </div>
-                          <h3>Frameworks</h3>
-                          <ul>
-                              <li>Bootstrap</li>
-                              <li>Ruby on rails</li>
-                              <li>RSpec</li>
-                              <li>Capybara</li>
-                              <li>Selenium</li>
-                          </ul>
-                      </div>
-  
-                      <div class="container-about">
-                          <div class="a-img">
-                              <img id="img2" src="img/skill.png" alt="">
-                          </div>
-                          <h3>skills</h3>
-                          <ul>
-                              <li>Codekit</li>
-                              <li>GitHub</li>
-                              <li>Codepen</li>
-                              <li>Gitlab</li>
-                              <li>Terminal</li>
-                          </ul>
-                      </div>
-                  </div>
-                  </div>
-              </section>
-  
-        
-        <footer id="contact">
-          <div class="container-form">
-            <div class="sub-container-form">
-                
-                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-                    <form action="https://formspree.io/f/mdojqgye" method="post">
-
-                        <input type="text" name="full name" id="Full-name" placeholder="Full name" minlength="1" maxlength="30" required>
-                        <input type="email" name="Email address" id="email" placeholder="Email address" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-                        <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Enter text here" required></textarea>
-                        <button type="submit">Get in touch</button>
-                        
-                    </form>
-            </div>         
-          <div class="socials">
-            <ul class="icon-links">
-              <li>
-                <a href="https://twitter.com/jossi30_" target="blank"><img class="icons" src="img/t.svg" alt="twitter"></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/yosief-g-hailay-290277213/" target="blank"><img class="icons" src="img/ln.svg" alt="linkedin"></a>
-              </li>
-              <li>
-                <a href="#" target="blank"> <img class="icons" src="img/m.svg" alt="github"></a>
-                  </li>
-              <li>
-                <a href="https://github.com/jossi30" target="blank"> <img class="icons" src="img/g.svg" alt="github"></a>
-              </li>
-              <li>
-                <a href="https://angellist.com/yosief-g-haylay" target="blank"> <img class="icons" src="img/2.svg" alt="angellist"></a>
-              </li>
-            </ul>
-        </div>    
-        <div class="email1">yosiefghaylay@gmail.com</div>
-        <div class="bottom-line1"></div>
-
-        </footer>
-
+      </footer>
+       
+    
         
 
 
     </section>  
-    <script src="mobile-menu.js"></script>          
+    <script src="mobile-menu.js"></script> 
+    <script src="pop-up.js"></script>           
 </body>
 </html> 
