@@ -121,6 +121,35 @@ const pop1 = document.querySelector('.popup1');
 const pop2 = document.querySelector('.popup2');
 const pop3 = document.querySelector('.popup3');
 
+const x = window.matchMedia('(max-width: 768px)');
+function openPopup() {
+  if (x.matches) {
+    pop.classList.add('open-popup');
+    document.getElementById('overlay').style.display = 'block';
+  }
+}
+
+function openPopup1() {
+  if (x.matches) {
+    pop1.classList.add('open-popup');
+    document.getElementById('overlay').style.display = 'block';
+  }
+}
+
+function openPopup2() {
+  if (x.matches) {
+    pop2.classList.add('open-popup');
+    document.getElementById('overlay').style.display = 'block';
+  }
+}
+
+function openPopup3() {
+  if (x.matches) {
+    pop3.classList.add('open-popup');
+    document.getElementById('overlay').style.display = 'block';
+  }
+}
+
 const closeM = document.getElementById('imgExit');
 const closeM1 = document.getElementById('imgExit1');
 const closeM2 = document.getElementById('imgExit2');
@@ -169,8 +198,6 @@ function openPopupD3() {
     pop3.classList.add('open-popupD');
     document.getElementById('overlay').style.display = 'block';
   }
-
-  closeM.addEventListener('click', openPopupD3);
 }
 
 const closeD = document.getElementById('imgx');
@@ -240,6 +267,10 @@ document.body.appendChild(div1);
 const list = document.querySelector('#img10');
 list.after(div1);
 
+div1.addEventListener('click', openPopup);
+div1.addEventListener('click', openPopup1);
+div1.addEventListener('click', openPopup2);
+div1.addEventListener('click', openPopup3);
 div1.addEventListener('click', openPopupD);
 div1.addEventListener('click', openPopupD1);
 div1.addEventListener('click', openPopupD2);
