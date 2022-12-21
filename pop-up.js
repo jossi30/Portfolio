@@ -239,3 +239,8 @@ document.body.appendChild(div1);
 
 const list = document.querySelector('#img10');
 list.after(div1);
+
+div1.addEventListener('click', openPopupD);
+div1.addEventListener('click', openPopupD1);
+div1.addEventListener('click', openPopupD2);
+div1.addEventListener('click', openPopupD3);
