@@ -276,7 +276,7 @@ div1.addEventListener('click', openPopupD1);
 div1.addEventListener('click', openPopupD2);
 div1.addEventListener('click', openPopupD3);
 
-/* validation */
+/* validation  */
 
 if (x.matches) {
   document.getElementById('First-Name').removeAttribute('required');
