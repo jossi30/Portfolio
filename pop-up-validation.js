@@ -275,3 +275,27 @@ div1.addEventListener('click', openPopupD);
 div1.addEventListener('click', openPopupD1);
 div1.addEventListener('click', openPopupD2);
 div1.addEventListener('click', openPopupD3);
+
+/* validation */
+
+if (x.matches) {
+  document.getElementById('First-Name').removeAttribute('required');
+  document.getElementById('Last-Name').removeAttribute('required');
+}
+if (x1.matches) {
+  document.getElementById('Full-name').removeAttribute('required');
+}
+const submitForm = document.querySelector('.form1');
+
+submitForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.getElementById('emailv').value.trim();
+  const Regx = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+
+  if (Regx.test(email) === true) {
+    submitForm.submit();
+    submitForm.reset();
+  } else {
+    document.querySelector('#error').textContent = 'Your Email Should be LowerCase letter';
+  }
+});
