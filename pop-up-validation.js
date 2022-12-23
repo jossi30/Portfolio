@@ -54,7 +54,7 @@ for (let i = 0; i < 4; i += 1) {
   div.id = `${array[i].name}`;
 
   for (let y = 0; y < 4; y += 1) {
-    const img = document.createElement('img');
+    const img = document.createElement('imgs');
     img.src = `${array[i].img[y]}`;
     img.id = `${array[i].imgId[y]}`;
     div.appendChild(img);
